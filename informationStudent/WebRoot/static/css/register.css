@@ -1,0 +1,154 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    height: 85px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.registerarea {
+    height: 625px;
+    margin-top: 10px;
+    border: 1px solid #dfdfdf;
+}
+
+.registerarea h3 {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    background: #ececec;
+}
+
+.registerarea h3 i {
+    float: right;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-top: -5px;
+    font-weight: 400;
+}
+
+.registerarea h3 i a {
+    color: #c81623;
+}
+
+.reg_form {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    /* text-align: center; */
+    margin: 50px auto 0px;
+    /* background-color: pink; */
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    /* margin-right: 10px; */
+    font-size: 14px;
+    color: #4c4c4c;
+}
+
+.reg_form .inpt {
+    width: 242px;
+    height: 42px;
+    /* text-align: left; */
+    margin: 0 10px 20px 10px;
+    border: 1px solid #999;
+}
+
+.safe {
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+em {
+    display: inline-block;
+    width: 34px;
+    height: 14px;
+    text-align: center;
+    line-height: 14px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    margin-top: 23px;
+    margin-left: 110px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.agree a {
+    color: #38a8e8;
+}
+
+.reg_form .tijiao input {
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    line-height: 35px;
+    margin-left: 120px;
+    margin-top: 10px;
+    border: 0;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+.mod_copyright {
+    text-align: center;
+}
+
+.mod_copyright ul {
+    height: 20px;
+    margin-top: 12px;
+}
+
+.mod_copyright ul li {
+    float: left;
+}
+
+.mod_copyright ul li:first-child {
+    padding-left: 85px;
+}
+
+.mod_copyright ul li a {
+    display: block;
+    float: left;
+    padding: 0 15px;
+}
+
+.mod_copyright p:first-child {
+    padding-top: 12px;
+}
+
+img {
+    display: none;
+    position: absolute;
+    top: 282px;
+    right: 108px;
+}

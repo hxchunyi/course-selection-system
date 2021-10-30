@@ -1,0 +1,101 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     position: relative;
+     background: url(../images/login-bg.png) no-repeat;
+     background-size: 100%;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: white;
+ }
+ 
+ h2 {
+     margin: 50px 500px;
+ }
+ 
+ .login {
+     box-sizing: border-box;
+     top: 200px;
+     left: 50%;
+     position: absolute;
+     width: 500px;
+     height: 300px;
+     text-align: center;
+     /* transform: translateX(-50%); */
+     color: white;
+     background: rgba(0, 0, 0, .2);
+ }
+ 
+ .close {
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     border-left: 1px solid white;
+     border-bottom: 1px solid white;
+     color: white;
+     cursor: pointer;
+ }
+ 
+ .title {
+     width: 500px;
+     height: 100px;
+     padding: 0;
+     font-size: 25px;
+     line-height: 150px;
+     text-align: center;
+     margin-bottom: 10px;
+     cursor: move;
+ }
+ 
+ input {
+     margin: 10px 0;
+     border: 0;
+     border-radius: 2px;
+ }
+ 
+ label {
+     display: inline-block;
+     width: 64px;
+     text-align: right;
+ }
+ 
+ button {
+     margin-top: 20px;
+     margin-left: 30px;
+     width: 50px;
+     height: 30px;
+     color: white;
+     border: 0;
+     border-radius: 5px;
+     background-color: #1fc8fd;
+ }
+ 
+ #userRight {
+     display: none;
+     position: absolute;
+     top: 113px;
+     left: 369px;
+     width: 90px;
+     height: 30px;
+     line-height: 30px;
+ }
+ 
+ .main #loginRight {
+     display: none;
+     position: absolute;
+     top: 150px;
+     left: 365px;
+     width: 100px;
+     height: 30px;
+     line-height: 30px;
+     color: red;
+ }
+ 
+ .baoBox {
+     position: relative;
+ }
